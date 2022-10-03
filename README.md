@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/114958650/193703496-ea13984a-5501-4ede-bdeb-00c067d8127c.mp4
+
 # PlasmAPP
 Graphical User Interfase in MATLAB App Designer for electrostatic 1D particle-in-cell simulations.
 
