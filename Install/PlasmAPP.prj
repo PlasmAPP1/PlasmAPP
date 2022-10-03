@@ -1,0 +1,115 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="699460193" file="C:\Users\sarag\OneDrive\Documents\TESIS\PLASMAPP\PlasmAPP.prj" location="C:\Users\sarag\OneDrive\Documents\TESIS\PLASMAPP" name="PlasmAPP" target="target.mlapps" target-name="Package App">
+    <param.appname>PlasmAPP</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon>${PROJECT_ROOT}\PlasmAPP_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\PlasmAPP_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\PlasmAPP_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\PlasmAPP_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\sarag\AppData\Local\Temp\tp144c51e8_8bdc_4777_9a52_e27e37675e1f.gif</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>45a69b66-5bca-4e7d-a925-af56a1c6c296</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Start.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\1.Two_stream_instability.txt</file>
+      <file>${PROJECT_ROOT}\2.Cold_Plasma.txt</file>
+      <file>${PROJECT_ROOT}\3.Buneman_instability.txt</file>
+      <file>${PROJECT_ROOT}\4.Ion_acoustic_waves.txt</file>
+      <file>${PROJECT_ROOT}\clear.png</file>
+      <file>${PROJECT_ROOT}\green-play-button-png.png</file>
+      <file>${PROJECT_ROOT}\Inputs.mlapp</file>
+      <file>${PROJECT_ROOT}\Main.mlapp</file>
+      <file>${PROJECT_ROOT}\PLASMAPP (1).gif</file>
+      <file>${PROJECT_ROOT}\PLASMAPP (2).gif</file>
+      <file>${PROJECT_ROOT}\PLASMAPP.gif</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\sarag\OneDrive\Documents\TESIS" name="PLASMAPP" optional="false">C:\Users\sarag\OneDrive\Documents\TESIS\PLASMAPP</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
