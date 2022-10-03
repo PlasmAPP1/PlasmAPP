@@ -3,9 +3,9 @@
 https://user-images.githubusercontent.com/114958650/193703496-ea13984a-5501-4ede-bdeb-00c067d8127c.mp4
 
 # PlasmAPP
-Graphical User Interfase in MATLAB App Designer for electrostatic 1D particle-in-cell simulations.
+Graphical User Interface in MATLAB App Designer for electrostatic 1D particle-in-cell simulations.
 
-If you want to install PlasmAPP, you can follow these steps:
+If you want to install PlasmAPP, follow these steps:
 
 1. Download the folder "Install PlasmAPP".
 2. Open MATLAB and go to the "APPS" tab and then click on "Install APP".
