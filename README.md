@@ -32,6 +32,6 @@ If yo want to see the code, you can follow these steps:
 
 3. Select the tab "Start.mlapp" and then you can run the APP.
 
-![image](https://user-images.githubusercontent.com/102175716/163847563-c9f00298-5d96-4228-aa16-cb57ea3353fc.png)
+![image](https://user-images.githubusercontent.com/114958650/193704242-30726b1a-3939-4a3a-8b5c-5ad29b2d84cc.png)
 
 The code "Start.mlapp" shows the logo of PlasmAPP, you have to click on the logo to open the graphical interface of "Inputs.mlapp". Here you will choose the parameters of the system, the parameters of the species, the numerical methods for solving equations, the interpolation scheme, and the diagnostics that you want to see. When you click on "run" the PIC code will be runing in the program "Main.mlapp", then you will be able to see the chosen diagnostics of the system.
