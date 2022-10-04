@@ -11,7 +11,7 @@ IB = 20000;
 % Methods
 Motion_method = 'Euler method';  % 'Leapfrog' 'Runge Kutta (RK4)'
 Field_method = 'Direct Integration';  % 'Finite Difference Method' 'Fast Fourier Transform (FFT)'
-Interpolation_method = Interpolation_method;
+Interpolation_method = 'Cloud in Cell (CIC)'; % 'Nearest Grid Point (NGP)'
 
 % Size of the cell
 dx = L/(Ng-1);                                      
@@ -35,7 +35,6 @@ kap(1) = 1;
 
 % Computational cycle
 for it = 1:Nt
-
     switch Motion_method
         case 'Leapfrog'
             vp1 = MotionV(,vp1,QM1,mat1,Eg,it,N1);
@@ -68,14 +67,5 @@ for it = 1:Nt
     %Updating velocity
     vp1 = MotionV(,vp1,QM1,mat1,Eg,it,N1);
     vp2 = MotionV(,vp2,QM2,mat2,Eg,it,N2);
-
-    %Diagnostics:
-    E_kin1(it) = Ekin(,Q1,QM1,vp1,N1); 
-    E_kin2(it) = Ekin(,Q2,QM2,vp2,N2);
-    E_kin(it) = E_kin1(it) + E_kin2(it) ; 
-
-    mom_1(it) = momentum(,Q1,QM1,vp1,N1); mom_2(it) = momentum(,Q2,QM2,vp2,N2); 
-    mom(it) = mom_1(it) + mom_2(it);
-    E_pot(it) = 0.5*sum(Eg.^2)*dx; 
 end``
 ```
