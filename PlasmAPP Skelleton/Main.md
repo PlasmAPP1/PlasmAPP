@@ -54,8 +54,8 @@ for it = 1:Nt
     mat2 = InterpolationF(xp2,N2,p2);
 
     % Charge density:
-    rho1 = Charge_density(Q1,mat1);
-    rho2 = Charge_density(Q2,mat2);
+    rho1 = Charge_density(Q1,mat1,dx);
+    rho2 = Charge_density(Q2,mat2,dx);
     rhot = rho1 + rho2 + rho_back;
 
     % Field equations:
