@@ -1,6 +1,6 @@
 ```MATLAB
 %% Function for calculate position of particles
-function position = MotionX(,position,velocity)
+function position = MotionX(position,velocity)
     switch Motion_method
         case 'Euler method'
             position = position + velocity*dt;
