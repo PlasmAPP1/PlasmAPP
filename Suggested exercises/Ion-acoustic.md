@@ -2,7 +2,7 @@
 
 Use the following parameters:
 $\texttt{L}=2048$, $\texttt{Nt} = 8000$, $\texttt{dt}= 0.05$, $\texttt{Ng} =8192$, $\texttt{N1}=8000$, $\texttt{N2}=8000$, $\texttt{Ni}=0$,
-$\texttt{V01}=0$, $\texttt{V02}=0$, $\texttt{Vth1}=1$, $\texttt{Vth2}=0$, $\texttt{QM1}=-1$, $\texttt{QM2}=0.01$, $\texttt{XP1}=0.2$, $\texttt{XP2}=0$, $\texttt{M1}=1$ y $\texttt{M2}=0$.
+$\texttt{V01}=0$, $\texttt{V02}=0$, $\texttt{Vth1}=1$, $\texttt{Vth2}=0$, $\texttt{QM1}=-1$, $\texttt{QM2}=0.01$, $\texttt{XP1}=0.2$, $\texttt{XP2}=0$, $\texttt{M1}=1$, and $\texttt{M2}=0$.
 Then run the simulation and save the parameters.
 
 The dispersion relation for Langmuir waves is:
