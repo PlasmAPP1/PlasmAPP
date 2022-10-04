@@ -1,7 +1,7 @@
 # LANGMUIR WAVES
 
 Simulate Langmuir waves using the following parameters:
-L = 1024, Nt = 8000, dt = 0.05, Ng = 8192, N1 = 50000, Ni = 50000, Vth1 = 1, QM1 = -1, WP = 1, and set the other parameters to zero:
+$\texttt{L}=1024$, $\texttt{Nt} = 8000$, $\texttt{dt}= 0.05$, $\texttt{Ng} =8192$, $\texttt{N1}=50000$, $\texttt{Ni}=50000$, $\texttt{Vth1}=1$, $\texttt{QM1}=-1$, $\texttt{WP}=1$, and set the other parameters to zero:
 
 <img src="https://user-images.githubusercontent.com/114958650/193858000-48e58e54-d577-4a0d-9b60-7f41540ed2fd.png" data-canonical-src="https://user-images.githubusercontent.com/114958650/193858000-48e58e54-d577-4a0d-9b60-7f41540ed2fd.png" width="300" height="200" />
 
