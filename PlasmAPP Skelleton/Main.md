@@ -1,11 +1,10 @@
 ```MATLAB
-% Extract information from "data" vector.
 % Parameters
 L = 64; dt = 0.1; Nt = 16000; Ng = 256; Num_beams = 2; 
 % Beam 1
 N1 = 10000; V01 = 5; Vth1 = 1; QM1 = -1; XP1 = 0; Mode1 = 0; WP = 1;
 % Beam 2
-N2 = 10000; V02 = -5; Vth1 = 1; QM1 = -1; XP1 = 0; Mode1 = 0; WP = 1;
+N2 = 10000; V02 = -5; Vth1 = 1; QM1 = -1; XP1 = 0; Mode1 = 0; 
 % Ions in the background
 IB = 20000;
 
