@@ -1,6 +1,6 @@
 ```MATLAB
 %% Funtion that moves the particles
-function velocity = MotionV(,velocity,QM,interp,Efieldg,it,N_particles)
+function velocity = MotionV(velocity,QM,interp,Efieldg,it,N_particles)
     if N_particles == 0
         velocity = 0;
     else
