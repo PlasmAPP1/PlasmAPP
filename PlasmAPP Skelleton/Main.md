@@ -76,17 +76,6 @@ for it = 1:Nt
 
     mom_1(it) = momentum(,Q1,QM1,vp1,N1); mom_2(it) = momentum(,Q2,QM2,vp2,N2); 
     mom(it) = mom_1(it) + mom_2(it);
-    E_pot(it) = 0.5*sum(Eg.^2)*dx;
-
-    % Saving Values:
-    vp1_history(:,it+1) = vp1;
-    vp2_history(:,it+1) = vp2;
-    xp1_history(:,it+1) = xp1;
-    xp2_history(:,it+1) = xp2;
-    Phi_history(:,it+1) = Phi;
-    Eg_history(:,it+1) = Eg;
-    rho1_history(:,it+1) = rho1;
-    rho2_history(:,it+1) = rho2;
-    rhot_history(:,it+1) = rhot;  
+    E_pot(it) = 0.5*sum(Eg.^2)*dx; 
 end``
 ```
