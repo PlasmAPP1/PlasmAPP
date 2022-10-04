@@ -1,6 +1,6 @@
 ```MATLAB
 %% Function that calculates the charge of superparticles and background density
-function [Q_1,Q_2,rho_back] = Charge(QM1,QM2,IB)
+function [Q_1,Q_2,rho_back] = Charge(QM1,QM2,IB,N1,N2,L)
     Q_1 = (WP^2*L)/(N1*QM1);   
     if QM2>0
         Q_2 = -Q_1*(N1/N2);
