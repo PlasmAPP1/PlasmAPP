@@ -1,4 +1,4 @@
-
+```MATLAB
 function [position,velocity] = InitialLoading(N_particles,V0,Vth,Amplitude,Mode)
     position = transpose(linspace(0,L-L/N_particles,N_particles)); 
     % Maxwellian distribution of velocities of the Beam.
@@ -8,6 +8,6 @@ function [position,velocity] = InitialLoading(N_particles,V0,Vth,Amplitude,Mode)
     % Perturbation
     if Amplitude == 0  
     else
-    position = position+Amplitude*cos(2*pi*Mode*position/L);
+        position = position+Amplitude*cos(2*pi*Mode*position/L);
     end
 end
