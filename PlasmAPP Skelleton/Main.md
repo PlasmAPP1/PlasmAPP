@@ -60,12 +60,9 @@ for it = 1:Nt
 
     % Field equations:
     [Phi,Eg] = Field(,rhot);
-    if convertCharsToStrings(Field_method) == "Fast Fourier Transform (FFT)"
-         Phi(Ng+1) = [];
-    end
 
     %Updating velocity
     vp1 = MotionV(vp1,QM1,mat1,Eg,it,N1);
     vp2 = MotionV(vp2,QM2,mat2,Eg,it,N2);
-end``
+end
 ```
